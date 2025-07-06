@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Brain-Stroke"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - sources.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
