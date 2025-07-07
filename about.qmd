@@ -8,3 +8,7 @@ Hello! My name is Jishnu Veerapaneni, I am an undergraduate at UIC studying neur
 This project explores a brain stroke dataset to identify and visualize key factors—such as age, hypertension, heart disease, and lifestyle habits—that may be associated with the occurrence of strokes. Github repo: https://github.com/jishnuvee/brain-stroke 
 
 This project was created as a part of Kane's Data Science Bootcamp https://bootcamp.davidkane.info/
+
+
+
+
