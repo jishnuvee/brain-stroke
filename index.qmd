@@ -14,7 +14,9 @@ data <- read_csv("brain_stroke.csv", show_col_types = FALSE)
 
 
 ```
-This project explored stroke risk factors, focusing on the relationship between stroke occurrence, hypertension, and age. A stroke, caused by poor brain blood flow (ischemic) or bleeding (hemorrhagic), results in symptoms such as paralysis, speech difficulties, dizziness, or vision loss, with high blood pressure as the primary risk factor, alongside smoking, obesity, and diabetes. A violin plot visualization was created to display age distributions for individuals with and without strokes, separated by hypertension status, using vibrant teal and red colors to emphasize that stroke patients tend to be older (median ~60–70 years) than those without strokes (median ~40–50 years), with hypertension intensifying this age difference, and highlighting outliers like younger stroke cases for a clear understanding of stroke risk patterns.
+
+Brain strokes are influenced by a complex mix of health conditions and lifestyle factors that can vary widely across individuals. The dataset used in this project was sourced from Kaggle’s Brain Stroke Dataset (2023), which includes variables such as age, smoking status, work type, and medical history. The data was cleaned by removing missing or inconsistent values and formatting categorical variables to ensure accurate analysis of stroke risk factors. Individuals with hypertension, heart disease, or high BMI were significantly more likely to have experienced a stroke, highlighting the importance of preventative healthcare and early risk detection. 
+
 
 ```{r}
 # Load required libraries
@@ -66,3 +68,8 @@ ggplotly(p, tooltip = c("y", "x")) %>%
   )
 
 ```
+
+
+
+
+This project explored stroke risk factors, focusing on the relationship between stroke occurrence, hypertension, and age. A stroke, caused by poor brain blood flow (ischemic) or bleeding (hemorrhagic), results in symptoms such as paralysis, speech difficulties, dizziness, or vision loss, with high blood pressure as the primary risk factor, alongside smoking, obesity, and diabetes. A violin plot visualization was created to display age distributions for individuals with and without strokes, separated by hypertension status, using vibrant teal and red colors to emphasize that stroke patients tend to be older (median ~60–70 years) than those without strokes (median ~40–50 years), with hypertension intensifying this age difference, and highlighting outliers like younger stroke cases for a clear understanding of stroke risk patterns.
