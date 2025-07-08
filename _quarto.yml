@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "Brain-Stroke"
+  title: "Visualizing Stroke Risk"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
       - sources.qmd
+      - about.qmd
 
 format:
   html:

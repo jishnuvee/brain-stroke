@@ -3,6 +3,6 @@ title: "Sources"
 format: html
 ---
 
-The data used in this project was obtained from the Kaggle website, specifically from the dataset titled Brain Stroke Dataset available at https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset?resource=download. The dataset includes information on various factors potentially associated with the risk of brain strokes, such as age, gender, hypertension, heart disease, smoking status, and body mass index (BMI). Prior to analysis, the data was cleaned to ensure consistency and accuracy. This included handling missing values, converting categorical variables to consistent formats, and removing incomplete or irrelevant observations that lacked key variable information.
+The data used in this project was obtained from the Kaggle website, specifically from the dataset titled [Brain Stroke Dataset](https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset?resource=download). The dataset includes information on various factors potentially associated with the risk of brain strokes, such as age, gender, hypertension, heart disease, smoking status, and body mass index (BMI). Prior to analysis, the data was cleaned to ensure consistency and accuracy. This included handling missing values, converting categorical variables to consistent formats, and removing incomplete or irrelevant observations that lacked key variable information.
 
 
