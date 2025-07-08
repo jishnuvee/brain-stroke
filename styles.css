@@ -1,1 +1,200 @@
 /* css styles */
+
+/* General Layout with Brain-Inspired Background */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e8e9f3; /* Light gray-blue, reminiscent of brain tissue */
+  color: #2c3e50; /* Dark navy for contrast */
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><path d="M10 50c10 10 20-10 30 0s20 10 30 0" stroke="#9b59b6" stroke-width="2" fill="none"/></svg>');
+  background-size: 50px;
+}
+
+/* Container with Neural Network Aesthetic */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(155, 89, 182, 0.2); /* Purple shadow for brainy vibe */
+  padding: 25px;
+  border: 1px solid #9b59b6; /* Purple border for neural theme */
+}
+
+/* Headings with Brainy Gradient */
+h1, h2, h3 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 2.4em;
+  text-align: center;
+  background: linear-gradient(45deg, #8e44ad, #3498db); /* Purple-to-blue gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #9b59b6;
+}
+h2 {
+  font-size: 1.9em;
+  color: #8e44ad; /* Deep purple for headers */
+}
+h3 {
+  font-size: 1.5em;
+}
+
+/* Table Styling for Dataset with Neural Highlights */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+}
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+th {
+  background-color: #9b59b6; /* Brainy purple for headers */
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+tr:nth-child(even) {
+  background-color: #f7f8fc; /* Light neural gray */
+}
+tr:hover {
+  background-color: #e8d6f5; /* Light purple hover for neural effect */
+  transition: background-color 0.3s ease;
+}
+
+/* Chart Containers with Neuron-Like Borders */
+.chart-container {
+  background-color: #ffffff;
+  border: 2px dashed #3498db; /* Blue dashed border for neural connections */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.2);
+}
+.chart-container h3 {
+  margin-top: 0;
+  color: #8e44ad;
+  font-style: italic; /* Slight italic for brainy aesthetic */
+}
+
+/* Buttons with Synapse-Inspired Glow */
+button, .btn {
+  background-color: #3498db; /* Blue for neural signals */
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5); /* Synapse glow */
+}
+button:hover, .btn:hover {
+  background-color: #8e44ad; /* Purple on hover */
+  box-shadow: 0 0 12px rgba(142, 68, 173, 0.7);
+}
+button:active, .btn:active {
+  background-color: #7f3c9b;
+}
+
+/* Input Fields with Neural Focus */
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #9b59b6; /* Purple border */
+  border-radius: 6px;
+  font-size: 1em;
+  background-color: #f9f9fc;
+  transition: all 0.3s ease;
+}
+input:focus, select:focus {
+  border-color: #3498db;
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.4); /* Neural glow on focus */
+}
+
+/* Cards for Summary Stats with Brainy Colors */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(155, 89, 182, 0.2);
+  padding: 20px;
+  margin: 12px;
+  flex: 1;
+  text-align: center;
+  border-left: 4px solid #3498db; /* Blue accent for neural connection */
+}
+.card h4 {
+  margin: 0 0 12px;
+  color: #2c3e50;
+  font-size: 1.3em;
+}
+.card p {
+  font-size: 1.6em;
+  color: #e74c3c; /* Red for critical stats (e.g., stroke risk) */
+  margin: 0;
+}
+
+/* Flexbox for Card Layout */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  .card {
+    flex: 100%;
+  }
+  table, th, td {
+    font-size: 0.85em;
+  }
+}
+
+/* Risk Indicators with Brainy Context */
+.high-risk {
+  background-color: #e74c3c; /* Red for high stroke risk */
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
+.low-risk {
+  background-color: #2ecc71; /* Green for low risk */
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+/* Footer with Subtle Neural Reference */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #7f8c8d;
+  font-size: 0.9em;
+  font-style: italic;
+  background: linear-gradient(90deg, transparent, #9b59b6, transparent);
+  padding: 5px 0;
+}
